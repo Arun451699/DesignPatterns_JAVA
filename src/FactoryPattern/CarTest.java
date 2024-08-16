@@ -9,5 +9,7 @@ public class CarTest {
         CarSedan.assemble();
         Car CarMini = factory.getcar("Mini");
         CarMini.assemble();
+        Car CarScoda = factory.getcar("Scoda");
+        CarScoda.assemble();
     }
 }

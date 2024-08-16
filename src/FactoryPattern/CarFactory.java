@@ -11,6 +11,8 @@ public class CarFactory {
             return new Sedan();
         } else if (cartype.equalsIgnoreCase("mini")) {
             return new Mini();
+        } else if (cartype.equalsIgnoreCase("scoda")) {
+            return new Scoda();
         }
         return null;
     }
